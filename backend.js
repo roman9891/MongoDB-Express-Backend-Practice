@@ -5,7 +5,7 @@ const app = express()
 app.use(express.json()) // middleware the allows reading of req.body
 
 // DB Connection
-const DB = `mongodb+srv://roman9891:roman999@cluster0.wz5un.mongodb.net/backend-practice?retryWrites=true&w=majority`
+const DB = `mongodb+srv://UN:PW@cluster0.wz5un.mongodb.net/backend-practice?retryWrites=true&w=majority`
 
 mongoose.connect(DB, {
     useNewUrlParser: true,
